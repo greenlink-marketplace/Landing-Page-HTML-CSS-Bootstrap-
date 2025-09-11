@@ -1,21 +1,93 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel = "stylesheet" href ="/style.css">
+    <title>GreenLink — Landing</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GreenLink</title>
-</head>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <!-- Hero -->
+      <section
+        class="hero container-fluid"
+        role="region"
+        aria-label="Apresentação"
+      >
+        <div class="row align-items-stretch" style="min-height: 80vh">
+          <div class="col-lg-6 col-12 hero-left">
+            <div class="hero-content">
+              <h1>Bem-vindo à GreenLink!</h1>
+              <p>
+                Junte-se à revolução da economia circular e ganhe créditos
+                verdes reciclando, que podem ser trocados por descontos em
+                nossas empresas parceiras.
+              </p>
+              <a class="btn-custom" href="#como-funciona">Começar</a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 hero-right" aria-hidden="true">
+            <div class="big-logo">
+              <img src="assets/img/LOGOv2.png" alt="Logo GreenLink" />
+            </div>
+          </div>
+        </div>
+      </section>
 
-<body>
-    <div>
-        <h1>Bem-vindo à GreenLink!</h1>
-        <p>Junte-se à revolução da economia circular e ganhe créditos verdes reciclando, que podem ser trocados por
-            descontos em nossas empresas parceiras!</p>
-        <button>Começar</button>
-    </div>
-    <div>
-        <img src="../imgs/gl-logo.png" alt="GreenLink-logo">
-    </div>
-</body>
+      <!-- Steps -->
+      <section
+        id="como-funciona"
+        class="steps"
+        role="region"
+        aria-label="Como funciona"
+      >
+        <div class="container">
+          <h2>Como funciona?</h2>
+          <div class="row g-4" role="list">
+            <div class="col-lg-4 col-md-6 col-12" role="listitem">
+              <article class="step">
+                <div class="step-number">1</div>
+                <h3>Etapa 1: Coletar materiais recicláveis</h3>
+                <p>
+                  Reúna materiais recicláveis, como garrafas plásticas, latas e
+                  papel, de sua casa ou comunidade.
+                </p>
+              </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12" role="listitem">
+              <article class="step">
+                <div class="step-number">2</div>
+                <h3>Etapa 2: Troca por Créditos Verdes</h3>
+                <p>
+                  Leve seus materiais a um ponto de coleta GreenLink e troque-os
+                  por créditos verdes que podem ser usados para descontos.
+                </p>
+              </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12" role="listitem">
+              <article class="step">
+                <div class="step-number">3</div>
+                <h3>Etapa 3: Resgatar descontos</h3>
+                <p>
+                  Navegue pelas empresas parceiras, escolha produtos e resgate
+                  seus créditos verdes para obter descontos exclusivos.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
+    <footer>© 2025 GreenLink. Todos os direitos reservados.</footer>
+
+    <!-- Bootstrap JS (opcional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
